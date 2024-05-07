@@ -1,0 +1,35 @@
+.container {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.block1{
+
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    background: url(img2.jpg)top no-repeat, url(img2.jpg)bottom no-repeat, url(img3.jpg) no-repeat;
+}
+
+.block2{
+    width: auto;
+    height: auto;
+    background: url("img2.jpg");
+}
+
+.block3{
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient(red 0px, red 15px, blue 15px, blue 30px);
+}
+
+.block4{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(white 0px, white 50px, blue 50px, blue 30px);
+}
+
